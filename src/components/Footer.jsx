@@ -17,7 +17,7 @@ const addressList = [
   },
   {
     iconName: 'icofont-envelope',
-    text: 'info@shopcart.com',
+    text: 'info@edukon.com',
   },
 ]
 
@@ -99,35 +99,6 @@ const quickList = [
   },
 ]
 
-const tweetList = [
-  {
-    iconName: 'icofont-twitter',
-    desc: <p>Aminur islam <a href="#">@ShopCart Greetings!  #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
-  },
-  {
-    iconName: 'icofont-twitter',
-    desc: <p>Somrat islam <a href="#">@ShopCart Hey! #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
-  },
-]
-
-const footerbottomList = [
-  {
-    text: 'Faculty',
-    link: '#',
-  },
-  {
-    text: 'Staff',
-    link: '#',
-  },
-  {
-    text: 'Students',
-    link: '#',
-  },
-  {
-    text: 'Alumni',
-    link: '#',
-  },
-]
 const Footer = () => {
   return (
     <footer className='style-2'>
@@ -210,13 +181,6 @@ const Footer = () => {
         <div className="container">
           <div className="section-wrapper">
             <p>&copy; 2023<Link to="/">Edukon</Link>Designed By <a href="/" target='_blank'>XYZ</a></p>
-            <div className="footer-bottom-list">
-              {
-                footerbottomList.map((val, i) => (
-                  <a href='#' key={i}>{val.text}</a>
-                ))
-              }
-            </div>
           </div>
         </div>
       </div>

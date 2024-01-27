@@ -56,7 +56,7 @@ const HomeCategory = () => {
           <div className='row g-4 justify-content-center row-cols-md-3 row-cols-sm-2 row-cols-1'>
             {
               categoryList.map((val, i) => (<div key={i} className='col'>
-                <Link to="shop" className='category-item'>
+                <Link to="courses" className='category-item'>
                   <div className="category-inner">
                     <div className='category-thumb'>
                       <img src={val.imgUrl} alt="" />
@@ -65,7 +65,7 @@ const HomeCategory = () => {
                       <div className='cate-icon'>
                         <i className={val.iconName}></i>
                       </div>
-                      <Link to="/shop"><h6>{val.title}</h6></Link>
+                      <Link to="/courses"><h6>{val.title}</h6></Link>
                     </div>
                   </div>
                 </Link>
@@ -73,7 +73,7 @@ const HomeCategory = () => {
             }
           </div>
           <div className='text-center mt-5'>
-            <Link to="/shop" className='lab-btn'><span>{btnText}</span></Link>
+            <Link to="/courses" className='lab-btn'><span>{btnText}</span></Link>
           </div>
         </div>
       </div>

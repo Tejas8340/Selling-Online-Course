@@ -51,7 +51,7 @@ const CartPage = () => {
 
   return (
     <div>
-      <PageHeader title={"Shop Cart"} curPage={"Cart Page"} />
+      <PageHeader title={"Course Cart"} curPage={"Cart Page"} />
       <div className="shop-cart padding-tb">
         <div className='container'>
           <div className="section-wrapper">
